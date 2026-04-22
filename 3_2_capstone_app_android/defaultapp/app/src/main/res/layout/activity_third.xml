@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"> <!-- 화면 중앙으로 내리기 -->
+
+    <!-- 시작 날짜 및 시간 설정 버튼 -->
+    <Button
+        android:id="@+id/startDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시작 날짜 및 시간 설정"
+        android:layout_marginBottom="8dp" />
+
+    <!-- 시작 날짜 및 시간 표시 -->
+    <TextView
+        android:id="@+id/startDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="시작 날짜 및 시간이 설정되지 않았습니다."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 종료 날짜 및 시간 설정 버튼 -->
+    <Button
+        android:id="@+id/endDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="종료 날짜 및 시간 설정"
+        android:layout_marginBottom="8dp" />
+
+    <!-- 종료 날짜 및 시간 표시 -->
+    <TextView
+        android:id="@+id/endDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="종료 날짜 및 시간이 설정되지 않았습니다."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 결과 계산 버튼 -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="알람 횟수 확인"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 결과 표시 -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="결과가 여기에 표시됩니다."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+</LinearLayout>
